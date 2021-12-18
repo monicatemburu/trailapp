@@ -1,0 +1,36 @@
+.Calci{
+    border: 2px solid white;
+    max-width: 400px;
+    padding: 10px;
+    margin: 0 auto;
+    background: none;
+}
+
+.Calci-Buttons{
+    padding: 10px;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+input{
+    padding: 20px;
+    width: 86%;
+    background-color: none;
+    background:  none;
+    text-align: right;
+    font-size: 26px;
+    color: aliceblue;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.is-clear, .is-zero{
+    grid-column: span 3;
+}
+
+.Calci-Btn{
+    padding: 20px;
+    font-size: 16px;
+}
